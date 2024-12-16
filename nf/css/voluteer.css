@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e6e8ff;
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+h3 {
+    color: blue;
+    font-size: 25px;
+}
+
+section {
+    padding: 20px;
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 2;
+    font-size: 1.1rem;
+}
+
+caption {
+    font-size: 1.5rem;
+}
+
+.table {
+    margin: auto;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+th, td {
+    padding: 12px;
+    font-size: 1.2rem;
+}
+
+.ecomit > a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.ecomit > a:hover {
+    text-decoration: none;
+    color: #f0a500;
+}

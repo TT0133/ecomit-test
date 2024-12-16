@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 35px;    
+}
+
+header {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+section {
+    padding: 20px 20px;
+    margin: 20px 0;
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.event-list {
+    list-style: none;
+    padding: 0;
+    font-size: large;
+}
+
+.event-list li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f0a500;
+}
+
+.faq {
+    text-align: left;
+}
+
+.question h3 {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.answer {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .message {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .message img {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p, form label {
+        font-size: 16px;
+    }
+}

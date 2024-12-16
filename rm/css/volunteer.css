@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddffe4;
+}
+
+header {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Mochiy Pop P One", sans-serif;
+}
+
+h3 {
+    color: green;
+    font-size: 25px;
+}
+
+section p {
+    font-size: 1.2rem;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+section {
+    padding: 20px;
+}
+
+caption {
+    font-size: 1.5rem;
+}
+
+.table {
+    margin: auto;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+th, td {
+    padding: 12px;
+    font-size: 1.2rem;
+}
+
+.ecomit a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.ecomit a:hover {
+    text-decoration: none;
+    color: #f0a500;
+}

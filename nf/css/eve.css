@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e6e8ff;
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 2;
+
+}
+
+.about {
+    padding: 20px 30px;
+    text-align: left;
+    height: 1000px;
+    font-family: "BIZ UDPGothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 28px;
+    color: blue;
+}
+
+.about p {
+    font-size: 18px;
+}

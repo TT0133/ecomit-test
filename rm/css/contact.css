@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddffe4;
+}
+
+header {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.contact-section, .map-section {
+    padding: 20px 30px;
+    text-align: center;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 700px;
+}
+
+h2 {
+    font-size: 28px;
+    color: green;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f0a500;
+}
